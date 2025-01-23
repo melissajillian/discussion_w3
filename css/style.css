@@ -1,0 +1,40 @@
+/* Within style.css:
+Style the background - Give the site a new background color
+Style the text - Change the font
+Make your headers bold
+Change the color
+Style your images
+Customize the height and width
+Put a border around your images
+If you have time add other styling
+Validate your pages to ensure accessible styling */
+
+body{
+    background-color: aliceblue;
+    font-family:'Courier New', Courier, monospace
+}
+
+h1{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(6, 6, 42)
+}
+
+h2{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(6, 6, 42)
+}
+
+h3{
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(6, 6, 42)
+}
+img{
+    max-width: 400px;
+    max-height: 450;
+    margin: auto;
+    border: solid 5px pink
+}
+
